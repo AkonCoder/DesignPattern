@@ -6,15 +6,16 @@ using System.Threading.Tasks;
 
 namespace SimpleFactoryPattern
 {
-    /// <summary>
-    /// 加法运算
-    /// </summary>
-    public class OperationAdd : Operation
+    public class OperationDiv:Operation
     {
         public override double GetOperstionResult()
         {
             double result = 0;
-            result = numberA + numberB;
+            if (numberB == 0)
+            {
+                throw  new Exception("除数不能为0！");
+            }
+            result = numberA/numberB;
             return result;
         }
     }

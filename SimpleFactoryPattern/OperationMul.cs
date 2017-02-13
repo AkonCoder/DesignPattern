@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 namespace SimpleFactoryPattern
 {
     /// <summary>
-    /// 加法运算
+    /// 乘法运算
     /// </summary>
-    public class OperationAdd : Operation
+    public class OperationMul:Operation
     {
         public override double GetOperstionResult()
         {
             double result = 0;
-            result = numberA + numberB;
+            result = numberA * numberB;
             return result;
         }
     }

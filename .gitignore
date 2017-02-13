@@ -19,3 +19,6 @@ SimpleFactoryPattern/bin/Debug/SimpleFactoryPattern.pdb
 SimpleFactoryPattern/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 SimpleFactoryPattern/obj/Debug/SimpleFactoryPattern.csproj.FileListAbsolute.txt
 SimpleFactoryPattern/obj/Debug/SimpleFactoryPattern.pdb
+SimpleFactoryPattern/bin/Debug/SimpleFactoryPattern.vshost.exe
+SimpleFactoryPattern/bin/Debug/SimpleFactoryPattern.vshost.exe.config
+SimpleFactoryPattern/bin/Debug/SimpleFactoryPattern.vshost.exe.manifest
