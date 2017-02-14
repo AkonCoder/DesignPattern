@@ -4,6 +4,10 @@ namespace StrategyPattern
 {
     class Program
     {
+        /// <summary>
+        /// 客户端根据需求选择相应的策略
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             var needPayMoney = 0d;
